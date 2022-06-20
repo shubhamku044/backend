@@ -24,7 +24,7 @@ mongoose
   })
   .catch((err) => {
     console.log(`Database Connection: ERROR😡😡`);
-    // console.log(err);
+    console.log(err);
   });
 
 const port = process.env.PORT || 5000;
