@@ -27,8 +27,6 @@ mongoose
     // console.log(err);
   });
 
-// mongodb+srv://shubhamku044:pxy9eXuDL7IJ8Dub@cluster0.hamcdl0.mongodb.net/natours
-
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
   console.log(`Listining on port ${port}...`);
